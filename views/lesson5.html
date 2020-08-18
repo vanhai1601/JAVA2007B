@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson5</title>
+    <link rel="stylesheet" href="../assets/css/lesson5.css" type="text/css"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="div1">
+        <div class="hotline_email">
+            <p>
+                <i class='fas fa-headphones-alt'></i> Hotline:<a href="#"> 0386701897</a>
+            </p>
+            <p>|</p>
+            <p>
+                <i class="fa fa-envelope-o"></i> Email:<a href="#"> abcd@biznoithat.com</a>
+            </p>
+        </div>
+        <div class="user">
+            <p><a href="#">
+                <i class="material-icons" id="place">place</i>
+                Địa điểm các cửa hàng
+                <i class="material-icons" id="diadiem">expand_more</i></a>
+            </p>
+            <p>|</p>
+            <p><a href="#"><i class="material-icons" id="dangnhap">person</i>Đăng nhập</a></p>
+            <p><a href="#" ><i class='fas fa-user-plus' id="dangky"></i>Đăng ký</a></p>
+        </div>
+    </div>
+
+    <div class="div2">
+        <a href=""><img src="../img/biz.PNG" alt=""></a>
+        <div id="danhmuc">
+            <a href="#">Chọn danh mục<span>&#9660;</span></a>
+            <div id="danhmuc_con">
+                <p><a href="#">Sofa thư giãn thông minh</a></p>
+                <p><a href="#">Sofa gỗ tự nhiên</a></p>
+                <p><a href="#">Sofa Da Italia</a></p>
+                <p><a href="#">Bàn ghế nhà hàng</a></p>
+                <p><a href="#">Bàn ăn gỗ nguyên tấm</a></p>
+                <p><a href="#">Thanh lý sản phẩm</a></p>
+                <p><a href="#">Sản phẩm bán chạy</a></p>
+                <p><a href="#">All</a></p>
+            </div>
+        </div>
+        <input type="text" placeholder="Tìm kiếm sản phẩm" id="searchbar" />
+        <input type="button" value="TÌM KIẾM" id="timkiem" />
+        <a href="#"><i class='fas fa-shopping-cart' id="shopping"></i></a>
+        <input type="button" value="0" id="numbersp"/>
+        <div id="hline">
+            <p id="p3">Hotline:</p>
+            <p id="p4">038 670 1897</p>
+        </div>
+    </div>
+    <div class="div3">
+        <ul>
+            <li id="li_first">
+                <a href=""><i class="fa fa-bars" ></i>DANH MỤC SẢN PHẨM <span id="span1">&#9660;</span></a>
+                <ul class="xemthem">
+                    <li><a href="#">Xem thêm</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Trang chủ<i class="material-icons" >expand_more</i></a>
+                <ul class="trangchu">
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li>
+                        <a href="#">Sản phẩm<i class="material-icons" style="margin-left: 80px;" >chevron_right</i></a>
+                        <ul class="sanpham">
+                            <li><a href="#">PHÒNG KHÁCH</a></li>
+                            <li><a href="#">PHÒNG NGỦ</a></li>
+                            <li><a href="#">PHÒNG ĂN</a></li>
+                            <li><a href="#">ĐỒ TRANG TRÍ</a></li>
+                            <li><a href="#">SẢN PHẨM MỚI</a></li>
+                            <li><a href="#">SẢN PHẨM BÁN CHẠY</a></li>
+                            <li><a href="#">BÁN CHẠY</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Tin tức<i class="material-icons" style="margin-left: 96px;">chevron_right</i></a>
+                        <ul class="tintuc">
+                            <li><a href="#">Hình ảnh giao tại nhà khách hàng</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Tuyển dụng<i class="material-icons" style="margin-left: 67px;">chevron_right</i></a>
+                        <ul class="tuyendung">
+                            <li><a href="#">Kế toán</a></li>
+                            <li><a href="#">Kỹ thuật</a></li>
+                            <li><a href="#">All</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Liên hệ<i class="material-icons" style="margin-left: 93px;">chevron_right</i></a>
+                        <ul class="lienhe">
+                            <li><a href="#">Hotline</a></li>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Website</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Phòng khách<i class="material-icons" >expand_more</i></a>
+                <ul class="phongkhach">
+                    <li><a href="#">Sofa</a></li>
+                    <li><a href="#">Kệ tivi</a></li>
+                    <li><a href="#">Bàn trà</a></li>
+                    <li><a href="#">Tủ giấy</a></li>
+                    <li><a href="#">Tủ trang trí</a></li>
+                    <li><a href="#">Sẩn phẩm đang sale</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Phòng ăn<i class="material-icons" >expand_more</i></a>
+                <ul class="phongan">
+                    <li><a href="#">Bàn ăn</a></li>
+                    <li><a href="#">Kệ, tủ trang trí</a></li>
+                    <li><a href="#">Sản phẩm đang sale</a></li>
+                    <li><a href="#">Bàn ghế nhà hàng</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Phòng ngủ<i class="material-icons" >expand_more</i></a>
+                <ul class="phongngu">
+                    <li><a href="#">Bộ phòng ngủ gỗ óc chó</a></li>
+                    <li><a href="#">Bộ phòng ngủ Range</a></li>
+                    <li><a href="#">Giường ngủ</a></li>
+                    <li><a href="#">Bàn học</a></li>
+                    <li><a href="#">Đệm</a></li>
+                    <li><a href="#">Sản phẩm sang sale</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Trang trí</li>
+            <li><a href="#">Sản phẩm thanh lý</a></li>
+            <li id="li_last"><a href="#">HỖ TRỢ KHÁCH HÀNG</a></li>
+
+        </ul>
+    </div>
+    <div class="div4">
+        <div class="left">
+            <div class="dieuhuong">
+                <button onclick="next()"><i class="material-icons">chevron_right</i></button>
+                <button onclick="back()"><i class="material-icons">chevron_left</i></button>
+            </div>
+            <div class="chuyen-slide">
+                <a href="#"><img src="../img/img1.png" alt=""></a>
+                <a href="#"><img src="../img/img2.png" alt=""></a>
+            </div>
+        </div>
+        <div class="right">
+            <a href="#"><img src="../img/phongkhach.PNG" alt=""></a>
+            <a href="#"><img src="../img/phongan.PNG" alt=""></a>
+            <a href="#"><img src="../img/phongngu.PNG" alt=""></a>
+        </div>
+    </div>
+    <div class="div5">
+         <a href=""><img src="../img/a.PNG" alt=""></a>
+         <a href=""><img src="../img/b.PNG" alt=""></a>
+         <a href=""><img src="../img/c.PNG" alt=""></a>
+    </div>
+    <div class="div6">
+        <div class="newsp"><a href="#"> SẢN PHẨM MỚI</a></div>
+        <div class="chuyen-sp">
+            <button onclick="next1()"><i class="material-icons">chevron_right</i></button>
+            <button onclick="back1()"><i class="material-icons">chevron_left</i></button>
+        </div>
+        <div class="listsp">
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp1.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp2.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp3.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp4.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp5.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp6.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp7.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp8.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp9.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+            <div class="spham">
+                <div class="img_sp1">
+                    <a href="#"><img src="../img/sp10.PNG" alt=""></a>
+                </div>
+                <div class="giasp">
+
+                    <p><a href=""></a> Bộ sofa chất liệu da bò Ý</p>
+                    <p>
+                        <span class="giagoc">43.000.000</span>
+                        <span class="giakm">36.000.000</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div7">
+        <div class="top">
+            <div class="hethong">
+                <p class="p1">HỆ THỐNG CỬA HÀNG</p>
+                <P class="p1">Biz Hà Đông (Petro Hà Đông)</P>
+                <p>Tầng 3-TTTM MeLinh Hà Đông, số 1 Hà Cầu-Hà Đông-Hà Nội</p>
+                <p>TEL: 0386701897</p>
+                <p>OPEN: 9:00-21:30</p>
+            </div>
+            <div class="longbien">
+                <p class="p1">Biz Long Biên (Big C Long Biên)</p>
+                <p>Tầng 2-TTTM Savico Long Biên, số 7-9 đường Nguyễn Văn Lĩnh, quận Long Biên, TP Hà Nội</p>
+                <p>TEL: 0386701897</p>
+                <p>OPEN: 9:00-22:00</p>
+            </div>
+            <div class="mydinh">
+                <p class="p1">Biz Mỹ Đình (Big C Mỹ ĐÌnh)</p>
+                <p>Tầng 3-TTTM The Garden-Đường Mễ Trì-Mỹ Đình-Hà Nội (BIG C Mễ Trì)</p>
+                <p>TEL: 0386701897</p>
+                <p>OPEN: 9:00-22:00</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main_top">
+                <div class="thongtin">
+                    <p>THÔNG TIN</p>
+                    <ul>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="chinhsach">
+                    <p>CHÍNH SÁCH</p>
+                    <ul>
+                        <li><a href="#">Mua hàng online</a></li>
+                        <li><a href="#">Hướng dẫn thanh toán</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Hình thức vận chuyển</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Hỏi, đáp nhanh</a></li>
+    
+                    </ul>
+                </div>
+                <div class="tongdai">
+                    <p>TỔNG ĐÀI BÁN HÀNG</p>
+                    <p id="icon">
+                        <i class="material-icons">phone</i>
+                        <span>0933 896 686</span>
+                    </p>
+                    <p id="bophan">CÁC BỘ PHẬN KHÁC</p>
+                    <p class="icon1">
+                        <i class="material-icons">phone</i>
+                        <span>093 389 6686 | Hotline 24/7</span>
+                    </p>
+                    <p class="icon1">
+                        <i class="material-icons">phone</i>
+                        <span>091 230 5775 | Sửa chữa & Bảo hành</span>
+                    </p>
+                    <p id="online">BÁN HÀNG ONLINE</p>
+    
+                    </p>
+                </div>
+                <div class="ketnoi">
+                    <p>KẾT NỐI VỚI CHÚNG TÔI</p>
+            
+                    <a href="#"> <i class="fa fa-facebook"></i> </a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <p class="logo">
+                        <img src="../img/hinh1.PNG" alt="" id="img1" /> 
+                        <img src="../img/hinh2.PNG" alt="" />
+                    </p>
+                    
+                </div>
+            </div>
+            <hr />
+            <div class="main_bottom">
+                <ul>
+                    <li id="phongkhach"><a href="#">PHÒNG KHÁCH</a></li>
+                    <li><a href="#">PHÒNG ĂN</a></li>
+                    <li><a href="#">PHÒNG NGỦ</a></li>
+                    <li><a href="#">ĐỒ TRANG TRÍ</a></li>
+                    <li><a href="#">ĐỆM</a></li>
+                    <li><a href="#">SẢN PHẨM MỚI</a></li>
+                    <li><a href="#">SẢN PHẨM BÁN CHẠY</a></li>
+                    <li id="all" ><a href="#">ALL</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">@2020 Bản quyền thuộc về <strong>Biznoithat.com</strong> </div>
+    </div>
+
+<script type="text/javascript" src="../assets/js/lesson5.js"></script>
+</body>
+</html>

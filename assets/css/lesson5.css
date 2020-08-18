@@ -1,0 +1,762 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Cambria;
+    list-style-type: none;
+}
+
+.div1{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    height: 40px;
+    border-bottom: 1px solid #c0c0c0 ;
+    color: #313131;
+}
+.div1 .hotline_email{
+    display: flex;
+    line-height: 40px;
+}
+.div1 .hotline_email p{
+    padding: 0px 10px;
+}
+.div1 .hotline_email p:first-child{
+    padding-left: 0px;
+}
+.div1 .user {
+    display: flex;
+    line-height: 40px;
+    margin-left: 416px;
+}
+.div1 .user p{
+    padding: 0px 10px;
+}
+.div1 .user p:last-child{
+    padding-right: 0px;
+}
+#place{
+    line-height: 40px;
+    font-size: 14px;
+    vertical-align:bottom;
+}
+#diadiem{
+    line-height: 40px;
+    font-size: 17px;
+    vertical-align: bottom;
+}
+#dangnhap, #dangky{
+    line-height: 40px;
+    font-size: 16px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+#dangky{
+    font-size: 10px;
+}
+
+.div2{
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.div2 a img{
+    height: 75px;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.div2 #danhmuc{
+    height: 35px;
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 60px;
+    border: 1px solid #c0c0c0;
+    border-right: none;
+    padding-left: 10px;
+    color:color:#8f8f8f;;
+    line-height: 35px;
+}
+.div2 #danhmuc span{
+    margin-left: 50px;
+    color:#8f8f8f;
+    font-size: 12px;
+}
+.div2 #danhmuc #danhmuc_con{
+    position: absolute;
+    display: none;
+    z-index: -1;
+    background-color: #c0c0c0;
+    width: 162px;
+    padding-left: 10px;
+    left:415px;
+}
+.div2 #danhmuc:hover #danhmuc_con{
+    display: block;
+    z-index: 1;
+}
+.div2 #danhmuc #danhmuc_con a:hover{
+    color: #0000ff;
+}
+.div2 #searchbar{
+    height: 35px;
+    margin-top: 25px;
+    border: 1px solid #c0c0c0;
+    border-right: none;
+    padding-left: 5px;
+    width: 250px;
+    color: #292929;
+    outline: none;
+}
+.div2 #timkiem{
+    margin-top:25px;
+    height: 37px;
+    border: 1px solid #00005b;
+    padding: 0 15px;
+    background-color:#00005b;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.div2 #timkiem:hover{
+    background-color: #00009b;
+}
+
+.div2 a #shopping{
+    margin-top: 25px;
+    margin-left: 60px;
+    background-color: #d8d8d8;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.div2 a #shopping:hover{
+    background-color: #8f8f8f;
+}
+.div2 #numbersp{
+    width: 25px;
+    height: 25px;
+    background-color: #00005b;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    line-height: 25px;
+    text-align: center;
+    margin-left: -18px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.div2 #hline{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.div2 #hline p:first-child{
+    font-size: 16px;
+    color: #00005b;
+    font-weight: bold;
+}
+.div2 #hline p:last-child{
+    font-size: 21px;
+    color:#590000;
+    font-weight: bolder;
+}
+.div3{
+    height: 55px;
+    background-color: #d4d4d4;
+    margin-top: -2px;
+    margin-bottom: 40px;
+}
+.div3 ul{
+    display: flex;
+    line-height: 55px;
+}
+.div3>ul>li{
+    padding: 0px 20px;
+    height: 55px;
+}
+.div3>ul>li:hover{
+    background-color:#efefef;
+}
+.div3 ul li a i{
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.div3>ul>li:first-child{
+    margin-left: 75px;
+    background-color:#f8f8f8;
+    font-weight: bold;
+    height: 55px;
+    font-size: 20px;
+}
+.div3 ul li:first-child i{
+    margin-top: -8px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.div3 ul li:first-child a span{
+    margin-left: 45px;
+    color: #8f8f8f;
+    font-size: 12px;
+    vertical-align: bottom;
+}
+.div3 >ul >li:last-child{
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div3  ul li .xemthem {
+    display: none;
+    z-index: -1;
+    position: absolute;
+    padding: 0px 10px;
+    left: 65px;
+    top: 186px;
+    
+}
+.xemthem li{
+    background-color:#f8f8f8;
+    font-weight: bold;
+    height: 55px;
+    font-size: 20px;
+    width: 234px;
+    padding: 0 20px;
+}
+.xemthem li a:hover{
+    color: #0000ff;
+}
+.div3  ul li:hover ul.xemthem{
+    display: block;
+    z-index: 1;
+}
+
+.div3 ul li .trangchu{
+    position: absolute;
+    display: block;
+    width: 170px;
+    background-color: #c0c0c0;
+    line-height: 40px;
+    left:349px;
+    display: none;
+    z-index: -1;
+}
+.div3 ul li .trangchu li{
+    padding: 0 0 0 10px;
+}
+.div3 >ul >li >.trangchu >li:hover{
+    background-color: #8f8f8f;
+}
+.div3>ul>li:hover>ul.trangchu{
+    display: block;
+    z-index: 1;
+}
+
+.div3 ul li .trangchu .sanpham{
+    position: absolute;
+    z-index: -1;
+    display: block;
+    line-height: 40px;
+    width: 170px;
+    left:170px;
+    top:41px;
+    background-color: #c0c0c0;
+    display: none;
+}
+.div3 >ul> li >.trangchu >li:hover >.sanpham{
+    display: block;
+    z-index: 1;
+}
+.sanpham li a:hover{
+    color: #00009b;
+}
+
+.div3 ul li .trangchu .tintuc{
+    position: absolute;
+    z-index: -1;
+    display: block;
+    line-height: 1.5;
+    width: 150px;
+    left:170px;
+    top:80px;
+    font-size: 16px;
+    background-color: #c0c0c0;
+    display: none;
+}
+.div3 >ul> li >.trangchu >li:hover >.tintuc{
+    display: block;
+    z-index: 1;
+}
+.tintuc li a:hover{
+    color: #00009b;
+}
+
+.div3 ul li .trangchu .tuyendung{
+    position: absolute;
+    z-index: -1;
+    display: block;
+    line-height: 40px;
+    width: 150px;
+    left:170px;
+    top:120px;
+    font-size: 16px;
+    background-color: #c0c0c0;
+    display: none;
+}
+.div3 >ul> li >.trangchu >li:hover >.tuyendung{
+    display: block;
+    z-index: 1;
+}
+.tuyendung li a:hover{
+    color: #00009b;
+}
+
+.div3 ul li .trangchu .lienhe{
+    position: absolute;
+    z-index: -1;
+    display: block;
+    line-height: 40px;
+    width: 150px;
+    left:170px;
+    top:160px;
+    font-size: 16px;
+    background-color: #c0c0c0;
+    display: none;
+}
+.div3 >ul> li >.trangchu >li:hover >.lienhe{
+    display: block;
+    z-index: 1;
+}
+.lienhe li a:hover{
+    color: #00009b;
+}
+
+
+.div3 ul li .phongkhach{
+    position: absolute;
+    display: block;
+    width: 170px;
+    background-color: #c0c0c0;
+    line-height: 40px;
+    left:463px;
+    display: none;
+    z-index: -1;
+}
+.div3 ul li .phongkhach li{
+    padding: 0 0 0 10px;
+}
+.div3 >ul >li >.phongkhach >li:hover{
+    background-color: #8f8f8f;
+}
+.div3>ul>li:hover>ul.phongkhach{
+    display: block;
+    z-index: 1;
+}
+
+
+.div3 ul li .phongan{
+    position: absolute;
+    display: block;
+    width: 170px;
+    background-color: #c0c0c0;
+    line-height: 40px;
+    left:593px;
+    display: none;
+    z-index: -1;
+}
+.div3 ul li .phongan li{
+    padding: 0 0 0 10px;
+}
+.div3 >ul >li >.phongan >li:hover{
+    background-color: #8f8f8f;
+}
+.div3>ul>li:hover>ul.phongan{
+    display: block;
+    z-index: 1;
+}
+
+.div3 ul li .phongngu{
+    position: absolute;
+    display: block;
+    width: 170px;
+    background-color: #c0c0c0;
+    line-height: 40px;
+    left:703px;
+    display: none;
+    z-index: -1;
+}
+.div3 ul li .phongngu li{
+    padding: 0 0 0 10px;
+}
+.div3 >ul >li >.phongngu >li:hover{
+    background-color: #8f8f8f;
+}
+.div3>ul>li:hover>ul.phongngu{
+    display: block;
+    z-index: 1;
+}
+
+
+.div4{
+    width: 1200px;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+.div4 .left{
+    width: 900px;
+    overflow: hidden;
+}
+.div4 .left .chuyen-slide img{
+    width: 900px;
+    height: 590px;
+    float: left;
+}
+
+.div4 .left .chuyen-slide{
+    width: 9999px;
+    transition: all 0.5s;
+}
+.div4 .left .dieuhuong button{
+    width: 30px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #d8d8d8;
+    position: absolute;
+    z-index: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.div4 .left .dieuhuong button:first-child{
+    top:520px;
+    left:945px;
+}
+.div4 .left .dieuhuong button:last-child{
+    top:520px;
+}
+.div4 .left .chuyen-slide img:hover{
+    opacity: 0.7;
+}
+
+.div4 .right{
+    width:300px;
+    overflow: hidden;
+}
+
+.div4 .right a img{
+    width: 285px;
+    margin-left: 20px;
+    height: 188px;
+    margin-bottom: 10px;
+}
+.div4 .right a img:hover{
+    opacity: 0.7;
+}
+
+
+.div5{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.div5 a{
+    margin-right: 20px;
+}
+
+.div5 a:last-child{
+    margin-right: 0px;
+}
+.div5 a img{
+    width: 384px;
+    height: 250px;
+}
+.div5 a img:hover{
+    opacity: 0.7;
+}
+
+
+.div6 {
+    width: 1192px;
+    margin: 0 auto;
+    min-height: 300px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.div6 .newsp a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    background-color: #000051;
+    color: #fff;
+    padding: 0 20px;
+    width: 160px;
+    font-size: 20px;
+}
+
+.div6 .chuyen-sp button:first-child{
+    position: absolute;
+    top: 1335px;
+    left: 1245px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.div6 .chuyen-sp button:last-child{
+    position: absolute;
+    top:1335px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.div6 .listsp {
+    display: flex;
+    width: 9999px;
+    transition: all 0.5s;
+}
+
+.div6 .listsp .spham{
+    border: 1px solid #c0c0c0;
+    border-right: none;
+    padding-bottom: 15px;
+    width: 237px;
+}
+.div6 .listsp .spham:last-child{
+    border-right:1px solid #c0c0c0; 
+}
+.div6 .listsp .spham:hover{
+    opacity: 0.5;
+}
+.div6 .listsp .spham .giasp{
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+.div6 .listsp .spham .img_sp1 img{
+    width: 215px;
+    height: 215px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+.div6 .listsp .spham .giasp .giagoc{
+    color: #c0c0c0;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+.div6 .listsp .spham .giasp .giakm{
+    color: #ec0000;
+}
+
+
+
+
+.div7{
+    width: 1200px;
+    margin: 0 auto;
+}
+.div7 .top{
+    width: 1200px;
+    background-color:#efefef;
+    margin-bottom: 10px;
+    display: flex;
+    line-height: 1.8;
+}
+
+.div7 .top .hethong{
+    margin:10px 20px 10px 90px;
+    width: 278px;
+}   
+.div7 .top .longbien{
+    padding-left: 15px;
+    border-left: 1px solid #999999;
+    width: 330px;
+    margin: 34px 20px 10px 20px;
+}
+
+.div7 .top .mydinh{
+    border-left: 1px solid #999999;
+    padding-left: 15px;
+    width: 300px;
+    margin: 34px 0px 10px 20px;
+}
+
+.div7 .p1{
+    font-weight: bold;
+}
+
+
+.div7 .main{
+    width: 1200px;
+    background-color: #efefef;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.div7 .main .main_top{
+    display: flex;
+}
+
+.div7 .main .main_top .thongtin{
+    margin-left: 90px;
+    margin-right: 60px;
+    width: 115px;
+} 
+
+.div7 .main .main_top .thongtin p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 20px;
+}
+.div7 .main .main_top .thongtin ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+}
+.div7 .main .main_top .thongtin ul li a:hover{
+    color: #0000ff;
+}
+.div7 .main .main_top .chinhsach{
+    margin-right: 60px;
+    width: 140px;
+} 
+
+.div7 .main .main_top .chinhsach p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 20px;
+}
+.div7 .main .main_top .chinhsach ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+}
+.div7 .main .main_top .chinhsach ul li a:hover{
+    color: #0000ff;
+}
+.div7 .main .main_top .tongdai{
+    margin-right: 100px;
+    width: 250px;
+} 
+.div7 .main .main_top .tongdai p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 20px;
+
+}
+.div7 .main .main_top .tongdai #icon{
+    margin-top: 0px;
+    line-height: 1.5;
+}
+
+.div7 .main .main_top .tongdai #icon i{
+    vertical-align: text-bottom;
+    font-size: 24px;
+}
+
+.div7 .main .main_top .tongdai #icon span{
+    color: red;
+    font-size: 20px;
+}
+.div7 .main .main_top .tongdai #bophan{
+    margin-top: 0px;
+}
+.div7 .main .main_top .tongdai .icon1{
+    margin-top: 0px;
+    line-height: 1.2;
+}
+.div7 .main .main_top .tongdai .icon1 i{
+    font-size: 15px;
+    margin-top: 6px;
+}
+.div7 .main .main_top .tongdai .icon1 span{
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+}
+.div7 .main .main_top .tongdai #online{
+    margin-top: 7px;
+    color: red;
+}
+
+.div7 .main .main_top .ketnoi p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 20px;
+}
+.div7 .main .main_top .ketnoi a{
+    color: black;
+}
+.div7 .main .main_top .ketnoi a i{
+    background-color: #fff;
+    width: 35px;
+    text-align: center;
+    padding:7px 0px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.div7 .main .main_top .ketnoi a i:hover{
+    background-color: #c0c0c0;
+}
+
+.div7 .main .main_top .ketnoi .logo #img1 {
+    margin-right: 80px;
+    
+}
+
+
+.div7 hr{
+    width: 1020px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.div7 .main .main_bottom{
+   width: 804px;
+   margin:20px auto;
+   margin-bottom: 0;
+}
+.div7 .main .main_bottom ul{
+    display: flex;
+}
+.div7 .main .main_bottom ul li{
+    padding: 0px 10px;
+    border-right: 1px solid #999999;
+}
+    
+.div7 .main .main_bottom ul #all{
+    border: none;
+}
+.div7 .main .main_bottom ul li a{
+    color:#404040;
+    text-decoration: none; 
+    font-size: 15px;
+}
+.div7 .main .main_bottom ul li a:hover{
+    color:#0000ff;
+}
+
+
+.div7 .bottom{
+    text-align: center;
+    color: #c0c0c0;
+}
+.div7 .bottom strong{
+    color:#9f0050;
+}
